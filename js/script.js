@@ -1,7 +1,9 @@
-const world = "Rossor";
-
+const word = "Rossor";
 // prompt("inserisci una parola e ti dirò se palindroma");
 // per il momento commentata per evitare il popup
+
+console.log(creaArray(word));
+
 
 
 
@@ -26,12 +28,7 @@ function creaArray(stringa) {
             result = false;
             break
         }
-
-
-
     }
-
-
     if (result == true) {
         message = "la parola è palindroma"
     } else {
@@ -40,11 +37,10 @@ function creaArray(stringa) {
     return message;
 
 
-
 }
 
 
-console.log(creaArray("Rossor"));
+
 
 
 
